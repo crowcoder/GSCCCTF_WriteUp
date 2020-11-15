@@ -20,7 +20,7 @@ If you apply the bitwise OR operator btye by byte between the two values you end
   
   <br />
 
- These bytes when converted to a UTF8 or ASCII string reveal the flag.  https://www.base64decode.org/
+ These bytes when converted to a UTF8 or ASCII string reveal the flag.  
 
 This is the result when encoded as base64: `dGFicy12cy1zcGFjZXM=`.   
 
