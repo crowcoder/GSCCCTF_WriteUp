@@ -27,6 +27,8 @@ etc.
 
 You know the exact length of the clue so after counting the groups of bold letters you might notice the count is the same number of letters in the flag. This should lead you to deduce that 3 = g, 4 = s, 5 = c and 1 = -
 
+An astute hacker noticed this was similar to a [Baconian cipher](https://en.wikipedia.org/wiki/Bacon%27s_cipher). It is not, but it is similar.
+
 Continuing on, you can fill in all of the letters that you know, which leaves you with a little guessing or trial and error.
 
 The flag reminds you that Granite State Code Camp encourages you to express yourself with *gscc-minimum-flair-fifteen-pieces*
