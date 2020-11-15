@@ -25,7 +25,7 @@ Not only is this site vulnerable to SQLi, but it returns very detailed error mes
 
 What the hacker has done is inject SQL code into the username and commented out the rest of the query, turning it into invalid SQL that blows up because there is no SQLi mitigation nor prudent error handling.:
 
-`SELECT Id, Username, Password, FirstName, LastName, EmailAddress, AccountNumber FROM [Users] WHERE Username = '') or invalid sql boom --' AND Password = 'dGRlcg=='`
+SELECT Id, Username, Password, FirstName, LastName, EmailAddress, AccountNumber FROM [Users] WHERE Username = '`') or invalid sql boom --`' AND Password = 'dGRlcg=='
 
 Armed with this information, a carefully crafted username can reveal passwords by using SQL to concatenate the password with the username which is revealed in the user interface. So, appending the password to the username will divulge the password. This query is using `OFFSET` in MS SQL Server to grab data for a single row. In this manner you can enumerate all accounts in the database by changing the `OFFSET`. 
 
