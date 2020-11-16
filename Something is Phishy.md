@@ -17,7 +17,7 @@ When you enter the following into the Login (password value doesn't matter):
 ![Login](./media/adelelogin.png)  
 <br />  
 It causes the server to run the following query:
-`"SELECT Id, Username, Password, FirstName, LastName, EmailAddress, AccountNumber FROM [Users] WHERE Username = '" + Adele' -- + "' AND Password = '" + pw "'"`  
+`"SELECT Id, Username, Password, FirstName, LastName, EmailAddress, AccountNumber FROM [Users] WHERE Username = '" + "Adele' --" + "' AND Password = '" + pw "'"`  
 
 Notice how the password part is commented out? The query will succeed and log you in without even knowing a password. By the way, this is a real scenario. Even today there is software that is vulnerable to this attack.  
 
