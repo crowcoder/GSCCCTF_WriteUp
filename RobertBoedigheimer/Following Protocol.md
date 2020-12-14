@@ -8,4 +8,4 @@ Additionally, there is a link to download a file. This is a pcap, or packet capt
 
 I used Fiddler, File -> Import Sessions, I chose "Packet Capture" and could see the individual request/responses where I then could see each unique key and find the complete flag.
 
-![Fiddler Screenshot](./media/FollowingProtocol.png)
+![Fiddler Screenshot](./media/FollowingProtocol.PNG)
